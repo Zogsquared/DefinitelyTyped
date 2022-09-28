@@ -62,6 +62,11 @@ declare namespace Bootstrap3Typeahead {
          * Allows you to dictate whether or not the first suggestion is selected automatically
          */
         autoSelect?: boolean | undefined;
+		
+		/**
+         * Set to true will select last highlighted item
+         */
+        selectOnBlur?: boolean | undefined;
 
         /**
          * Call back function to execute after selected an item
